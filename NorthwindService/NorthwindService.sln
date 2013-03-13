@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NorthwindService", "NorthwindService\", "{84986954-3816-4822-B725-1168BCCFE9B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/NorthwindService"
+		Debug.AspNetCompiler.PhysicalPath = "NorthwindService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NorthwindService"
+		Release.AspNetCompiler.PhysicalPath = "NorthwindService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50990"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NorthwindWebSite", "NorthwindWebSite\", "{423672FB-C33B-4665-AF13-2018B6C19B07}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/NorthwindWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "NorthwindWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NorthwindWebSite"
+		Release.AspNetCompiler.PhysicalPath = "NorthwindWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NorthwindWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51026"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84986954-3816-4822-B725-1168BCCFE9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84986954-3816-4822-B725-1168BCCFE9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{423672FB-C33B-4665-AF13-2018B6C19B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{423672FB-C33B-4665-AF13-2018B6C19B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

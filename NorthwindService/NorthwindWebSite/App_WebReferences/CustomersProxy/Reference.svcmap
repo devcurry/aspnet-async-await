@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e16e1b98-eb09-4dc6-97a8-2d270673d6a8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50990/NorthWindService/CustomersService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomersService.xsd" MetadataType="Schema" ID="bd2b582b-6848-4032-b673-6daf04beb45b" SourceId="1" SourceUrl="http://localhost:50990/NorthWindService/CustomersService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CustomersService.disco" MetadataType="Disco" ID="e4bd1323-a936-49ad-9498-858413664aff" SourceId="1" SourceUrl="http://localhost:50990/NorthWindService/CustomersService.svc?disco" />
+    <MetadataFile FileName="CustomersService1.xsd" MetadataType="Schema" ID="5b05e797-8e0d-490c-85f9-bca5ae5019ac" SourceId="1" SourceUrl="http://localhost:50990/NorthWindService/CustomersService.svc?xsd=xsd0" />
+    <MetadataFile FileName="CustomersService.wsdl" MetadataType="Wsdl" ID="2289ca76-030f-44d2-b239-744a2ee01759" SourceId="1" SourceUrl="http://localhost:50990/NorthWindService/CustomersService.svc?wsdl" />
+    <MetadataFile FileName="CustomersService2.xsd" MetadataType="Schema" ID="9f2ac44d-5003-46bb-a538-8f677160f4c3" SourceId="1" SourceUrl="http://localhost:50990/NorthWindService/CustomersService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
